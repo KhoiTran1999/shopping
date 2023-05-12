@@ -76,7 +76,7 @@
     z-index: 1;
     width: 100%;
     overflow-x: hidden;
-    overflow-y: scroll;
+    overflow-y: hidden;
     height: 100%;
 }
 
@@ -87,6 +87,8 @@
     -ms-flex: 0 0 190px;
     flex: 0 0 190px;
     width: 60%;
+    overflow-y: auto;
+    overscroll-behavior-y: none;
 }
 
 @media only screen and (max-width: 767px) {
